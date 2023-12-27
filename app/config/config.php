@@ -6,7 +6,7 @@ $config = parse_ini_file('config.ini');
 define('DB_HOST', 'localhost');
 define('DB_USER', $config['DB_USER']);
 define('DB_PASS', $config['DB_PASS']);
-define('DB_NAME', 'shareposts');
+define('DB_NAME', 'b9');
 
 // App Root 
 define('APPROOT', dirname(dirname(__FILE__)));
