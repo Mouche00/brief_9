@@ -22,8 +22,8 @@
     <link rel="stylesheet" href="<?php echo URLROOT;?>/css/style.css">
     <title><?php echo SITENAME; ?></title>
 </head>
-<body class="bg-gray-200 p-4 flex gap-8">
+<body class="relative bg-gray-300 p-4 flex gap-8">
     <?php require APPROOT . '/views/inc/sidebar.php'; ?>
-    <main class="w-[85%] flex flex-col"> <!-- Begin Main Container -->
+    <main class="w-[85%] flex flex-col gap-8"> <!-- Begin Main Container -->
         <?php require APPROOT . '/views/inc/navbar.php'; ?>
 

@@ -1,4 +1,6 @@
 <section class="relative w-[15%] h-full py-8 bg-ogyr text-lancelot text-2xl font-extrabold flex flex-col items-center justify-between rounded-lg">
+    <div class="w-full h-full absolute bg-black rounded-lg translate-y-[-2%] translate-x-[4%] z-[-1]"></div>
+
     <!-- LOGO -->
     <div class="w-[70%] flex justify-center">
         <img class="w-[80%]" src="<?php echo URLROOT;?>/images/logo-lancelot.png" alt="">
@@ -8,7 +10,7 @@
     <div class="w-[70%] flex flex-col items-center gap-8">
         <div class="w-full flex justify-between">
             <i class="fa-solid fa-lock"></i>
-            <h1>INSURANCES</h1>
+            <h1>INSURERS</h1>
         </div>
         <div class="w-full flex justify-between">
             <i class="fa-solid fa-person"></i>
@@ -34,7 +36,4 @@
             <h1>LOGOUT</h1>
         </button>
     </div>
-
-    <div class="w-full h-full absolute bg-black rounded-lg translate-y-[-2%] translate-x-[4%] z-[-1]"></div>
-
 </section>

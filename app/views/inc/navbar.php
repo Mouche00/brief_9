@@ -1,7 +1,7 @@
 <section class="w-full h-[10%] px-8 relative bg-lancelot text-white font-extrabold flex items-center justify-between rounded-lg">
 
     <!-- MESSAGE -->
-    <div></div>
+    <div id="page-name"></div>
 
     <!-- USERINFO -->
     <div class="w-[20%] h-full flex justify-between items-center">
