@@ -7,14 +7,14 @@
 
 class Core 
 {
-    protected $currentController = 'Pages';
+    protected $currentController = 'Insurers';
     protected $currentMethod = 'index';
     protected $params = [];
 
     public function __construct()
     {
         $url = $this->getUrl();
-
+        
         // Name of controller is always an uppercase file
         $controller = ucwords($url[0]);
         if (file_exists("../app/controllers/$controller.php")) {
